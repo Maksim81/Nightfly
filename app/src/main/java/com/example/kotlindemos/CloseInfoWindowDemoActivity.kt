@@ -19,12 +19,10 @@ package com.example.kotlindemos
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotlindemos.OnMapAndViewReadyListener.OnGlobalLayoutAndMapReadyListener
-import com.example.kotlindemos.R.drawable.*
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
-import java.util.*
 
 
 /**
@@ -116,19 +114,31 @@ class CloseInfoWindowDemoActivity :
      */
     class SelectStarByTitle
 
-    class MarkerInfo(val latLng: LatLng, val title: String, val snippet: String)
+    class MarkerInfo(val latLng: LatLng, val title: String, val snippet: String, val website: String)
 
     private val cities = listOf(
             MarkerInfo(LatLng(59.4365480, 24.7489300),
-                    "Paparazzi", "Viru 18"),
+                    "Paparazzi", "Viru 18", "missing"),
             MarkerInfo(LatLng(59.4370841, 24.7526080),
-                    "Venus Klubi", "Vana-Viru 14"),
+                    "Venus Klubi", "Vana-Viru 14", "missing"),
+            MarkerInfo(LatLng(59.422254, 24.698996),
+                    "Del Mare Baar", "Mustamäe tee 43", "missing"),
             MarkerInfo(LatLng(59.4309197, 24.7442982),
-                    "Jamaica baar (Karaoke)", "Roosikrantsi 15"),
-            MarkerInfo(LatLng(59.4351784, 24.7452193),
-                    "Jamaica baar (Karaoke)", "Roosikrantsi 15"),
+                    "Jamaica baar (Karaoke)", "Roosikrantsi 15", "missing"),
+            MarkerInfo(LatLng(59.4325962, 24.7447196),
+                    "Nightclub theater", "Vabaduse väljak 5", "missing"),
             MarkerInfo(LatLng(59.4529034, 24.8753043),
-                    "Well klubi", "Läänemere tee 28")/*,
+                    "Well klubi", "Läänemere tee 28", "missing"),
+            MarkerInfo(LatLng(59.4303143, 24.7465216),
+                    "Nightclub IBIZA", "Sakala 23A", "missing"),
+            MarkerInfo(LatLng(59.4365315, 24.7549409),
+                    "Cafe AMIGO", "Viru väljak 4", "missing"),
+            MarkerInfo(LatLng(59.4351587, 24.7455513),
+                    "Club Hollywood", "Vana-Posti 8", "missing"),
+            MarkerInfo(LatLng(59.434584, 24.743917),
+                    "Vabank", "Harju 13", "missing"),
+            MarkerInfo(LatLng(59.435982, 24.747579),
+                    "Club Studio", "Sauna 1", "missing")/*,
             MarkerInfo(LatLng(-31.952854, 115.857342),
                     "Perth", "Population: 1,738,800")*/
     )

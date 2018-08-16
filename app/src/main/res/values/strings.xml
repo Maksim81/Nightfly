@@ -14,8 +14,9 @@
     limitations under the License.
 -->
 <resources>
-    <string name="app_name">Clubber Superfast (location: Tallinn)</string>
+    <string name="app_name">Heatmap  @Tallinn</string>
     <string name="no_demos">No demos</string>
+    <string name="company_info">Gamma Test Technologies</string>
 
     <!-- Basic Map Demo -->
     <string name="basic_demo_label">Locate FOB Solutions</string>
@@ -172,4 +173,8 @@
     <string name="tags_demo_details">tags_demo_label</string>
     <string name="ui_settings_demo_label">tags_demo_label</string>
     <string name="ui_settings_demo_details">ui_settings_demo_details</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

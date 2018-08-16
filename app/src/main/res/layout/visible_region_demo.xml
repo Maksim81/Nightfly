@@ -86,6 +86,8 @@
                 android:onClick="moveToAUS"
                 android:text="@string/vr_australia_button"
                 android:visibility="invisible"/>
+
         </LinearLayout>
+
     </RelativeLayout>
 </LinearLayout>
