@@ -29,8 +29,9 @@
         android:id="@+id/empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/no_demos"
+        android:text="@string/company_info"
         android:textAlignment="center"
         android:textSize="24sp"
         android:visibility="gone" />
+
 </LinearLayout>
