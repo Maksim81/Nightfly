@@ -14,6 +14,7 @@
     limitations under the License.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
@@ -52,4 +53,13 @@
             android:textColor="#ff7f7f7f"
             android:textSize="14sp" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="261dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        tools:text="This is GTT description" />
+
 </LinearLayout>

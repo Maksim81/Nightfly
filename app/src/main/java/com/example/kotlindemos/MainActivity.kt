@@ -21,10 +21,12 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.Marker
 import com.example.kotlindemos.R.layout.visible_region_demo
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.SupportMapFragment
+//import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
 
 /**
@@ -151,7 +153,7 @@ import com.google.android.gms.maps.model.*
 
     fun onGTTClick(view: View)
     {
-        setContentView(R.layout.visible_region_demo)
+        setContentView(R.layout.custom_info_contents)
     }
 
     private fun getStarByTitle(title: String): Int {
