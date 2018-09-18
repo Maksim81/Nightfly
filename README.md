@@ -1,7 +1,7 @@
-Fob Solution Locator (based on Google Maps Android API Demos)
+Nightfly (project) (based on Google Maps Android API Demos)
 ===================================
 
-Fob Solution Locator is a simple application developed based on Google Maps SDK in order to demonstrate how to catch UI elements of Android App.
+Nightfly (project) is a simple application developed based on Google Maps SDK.
 
 Pre-requisites
 --------------
