@@ -191,6 +191,8 @@ import com.google.android.gms.maps.model.*
                     "Nightclub IBIZA", "Sakala 23A", "missing"),
             CloseInfoWindowDemoActivity.MarkerInfo(LatLng(59.4365315, 24.7549409),
                     "Cafe AMIGO", "Viru väljak 4", "missing"),
+            CloseInfoWindowDemoActivity.MarkerInfo(LatLng(59.4365315, 24.7549409),
+                    "Cafe AMIGO", "Viru väljak 4", "missing"),
             CloseInfoWindowDemoActivity.MarkerInfo(LatLng(59.4351587, 24.7455513),
                     "Club Hollywood", "Vana-Posti 8", "missing"),
             CloseInfoWindowDemoActivity.MarkerInfo(LatLng(59.434584, 24.743917),
